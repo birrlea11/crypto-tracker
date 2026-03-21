@@ -1,55 +1,73 @@
-# 🚀 Crypto Alert System
+# 🚀 Crypto Alert System v2.0 (Advanced Edition)
+**Backend System for Real-Time Financial Monitoring & Automated Notifications**
 
-Sistem de backend performant construit cu **Spring Boot**, creat pentru a monitoriza prețurile criptomonedelor și a trimite alerte automate prin email.
-
----
-
-## 🛠️ Stack Tehnologic
-
-* **Backend:** Java 23, Spring Boot 3.4.3
-* **Bază de date:** MySQL (Spring Data JPA)
-* **Validare:** Jakarta Validation API
-* **Documentație:** Swagger UI & OpenAPI 3 (v2.8.5)
-* **Utilitare:** Lombok, SLF4J (Logging), RestTemplate
+Sistem de monitorizare high-performance construit cu **Spring Boot 3.4.3**, optimizat pentru procesare asincronă și trasabilitate totală a datelor.
 
 ---
 
-## ✨ Funcționalități Cheie
+## ✨ Ce am adăugat nou (Pro Features)
 
-* **Arhitectură Layered:** Structură curată (Controller -> Service -> Repository).
-* **Securitate prin DTO-uri:** Utilizarea `CryptoAlertRequest` și `CryptoAlertResponse` pentru a proteja entitățile bazei de date.
-* **Validare Automată:** Verificarea email-urilor și a prețurilor pozitive direct la intrarea în API.
-* **Global Exception Handling:** Răspunsuri JSON customizate pentru erori (HTTP 400), evitând erorile generice de sistem.
-* **Monitorizare Automată:** Task-uri programate (`@Scheduled`) care verifică prețurile prin CoinGecko API la fiecare minut.
-* **Alerte Email HTML:** Notificări vizuale trimise via SMTP (Brevo).
-
----
-
-## 🚦 Ghid de Utilizare (API)
-
-Interfața **Swagger** este disponibilă la:  
-`http://localhost:8080/swagger-ui/index.html`
-
-### Endpoint-uri principale:
-* `POST /api/alerts` : Creează o alertă nouă (necesită `coinId`, `targetPrice`, `userEmail`).
-* `GET /api/alerts` : Listează toate alertele monitorizate.
+* **⚡ Arhitectură Asincronă (@Async):** Trimiterea email-urilor nu mai blochează firul principal de execuție. Sistemul „aruncă” notificările într-un pool de thread-uri separat, asigurând o scalabilitate masivă.
+* **🧠 Smart Tracking (ABOVE/BELOW):** Utilizatorul nu mai setează doar un preț; el definește o strategie (Buy the Dip sau Take Profit) prin parametrul `AlertDirection`.
+* **📜 Sistem de Audit & History:** Orice notificare trimisă lasă o amprentă în tabelul `NotificationHistory`. Știm exact ce preț a fost în momentul X, la ce oră s-a trimis mailul și dacă a fost cu succes.
+* **🎨 Frontend Modern "Dark Mode":** Interfață web integrată (HTML5/JS) servită direct de Spring Boot, eliminând nevoia de Postman pentru utilizatorul final.
+* **📧 Dynamic HTML Templating:** Email-uri vizuale care își schimbă culoarea (Verde/Roșu) și subiectul în funcție de evoluția pieței.
 
 ---
 
-## ⚙️ Configurare Proiect
+## 🛠️ Stack Tehnologic Complet
 
-Aplicația folosește variabile de mediu pentru securitate. Configurează următoarele în mediul tău de rulare (IDE):
+* **Core:** Java 23, Spring Boot 3.4.3
+* **Data Layer:** MySQL, Spring Data JPA, Hibernate
+* **Concurrency:** Spring Task Scheduling (`@Scheduled`) & Async Executions (`@Async`)
+* **Security:** Environment Variables Encapsulation, DTO Pattern (Request/Response separation)
+* **Communication:** SMTP via Brevo API, MimeMessage HTML Templating
+* **UI:** Lightweight Vanilla JS & CSS3 (Root-served)
 
-| Variabilă | Descriere |
+---
+
+## 🏗️ Arhitectura Datelor
+
+### Smart Alert Logic
+Sistemul folosește un flux de validare dublu în `checkPrices`:
+1.  **Batch Fetching:** Extrage prețurile o singură dată pentru toate ID-urile unice (ex: 1 apel API pentru 100 de utilizatori de Bitcoin).
+2.  **Directional Check:** * `ABOVE`: `currentPrice >= targetPrice` (Profit Strategy)
+    * `BELOW`: `currentPrice <= targetPrice` (Entry Strategy)
+
+### Entități de Bază:
+* `CryptoAlert`: Stochează pragul, direcția și starea (Active/Inactive).
+* `NotificationHistory`: Log-ul permanent de execuție pentru audit.
+
+---
+
+## 🚦 Endpoint-uri API (Swagger Enabled)
+
+Accesează: `http://localhost:8080/swagger-ui/index.html`
+
+| Metodă | Path | Descriere |
+| :--- | :--- | :--- |
+| **POST** | `/api/alerts` | Creează alertă cu direcție (`ABOVE`/`BELOW`) |
+| **GET** | `/api/alerts` | Lista alertelor active |
+| **GET** | `/api/alerts/history` | Istoricul notificărilor trimise (Audit Trail) |
+
+---
+
+## ⚙️ Variabile de Mediu (Security First)
+
+Aplicația **nu** rulează fără următoarele chei configurate în IDE:
+
+| Variabilă | Rol |
 | :--- | :--- |
-| `DB_URL` | URL-ul conexiunii MySQL |
-| `DB_USERNAME` | Username bază de date |
-| `DB_PASSWORD` | Parola bază de date |
-| `COINGECKO_API_KEY` | API Key CoinGecko |
-| `MAIL_USERNAME` | SMTP Username (Brevo) |
-| `MAIL_PASSWORD` | SMTP Password (Brevo) |
-| `MAIL_SENDER` | Adresa email expeditor |
+| `DB_URL` / `DB_PASSWORD` | Conexiune MySQL Persistență |
+| `COINGECKO_API_KEY` | Acces Date Real-Time |
+| `MAIL_USERNAME` / `MAIL_PASSWORD` | Credențiale SMTP (Brevo) |
 
 ---
 
-👨‍💻 **Autor:** Alex
+## 🎨 Interfața Utilizator
+Sistemul include un Frontend integrat accesibil direct la:
+`http://localhost:8080/`
+
+---
+
+👨‍💻 **Autor:** Alex (Fullstack Java Developer)

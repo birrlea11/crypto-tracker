@@ -1,73 +1,58 @@
-# 🚀 Crypto Alert System v2.0 (Advanced Edition)
-**Backend System for Real-Time Financial Monitoring & Automated Notifications**
+# 🚀 Crypto Tracker API
 
-Sistem de monitorizare high-performance construit cu **Spring Boot 3.4.3**, optimizat pentru procesare asincronă și trasabilitate totală a datelor.
+[![Java](https://img.shields.io/badge/Java-17-orange?style=for-the-badge&logo=java)](https://www.oracle.com/java/)
+[![Spring Boot](https://img.shields.io/badge/Spring%20Boot-3.4.3-brightgreen?style=for-the-badge&logo=spring-boot)](https://spring.io/projects/spring-boot)
+[![MySQL](https://img.shields.io/badge/MySQL-8.0-blue?style=for-the-badge&logo=mysql)](https://www.mysql.com/)
+[![Swagger](https://img.shields.io/badge/Swagger-OpenAPI%203.0-dfd?style=for-the-badge&logo=swagger)](http://swagger.io/)
 
----
-
-## ✨ Ce am adăugat nou (Pro Features)
-
-* **⚡ Arhitectură Asincronă (@Async):** Trimiterea email-urilor nu mai blochează firul principal de execuție. Sistemul „aruncă” notificările într-un pool de thread-uri separat, asigurând o scalabilitate masivă.
-* **🧠 Smart Tracking (ABOVE/BELOW):** Utilizatorul nu mai setează doar un preț; el definește o strategie (Buy the Dip sau Take Profit) prin parametrul `AlertDirection`.
-* **📜 Sistem de Audit & History:** Orice notificare trimisă lasă o amprentă în tabelul `NotificationHistory`. Știm exact ce preț a fost în momentul X, la ce oră s-a trimis mailul și dacă a fost cu succes.
-* **🎨 Frontend Modern "Dark Mode":** Interfață web integrată (HTML5/JS) servită direct de Spring Boot, eliminând nevoia de Postman pentru utilizatorul final.
-* **📧 Dynamic HTML Templating:** Email-uri vizuale care își schimbă culoarea (Verde/Roșu) și subiectul în funcție de evoluția pieței.
+**Crypto Tracker API** este un sistem backend performant construit cu Spring Boot 3.4.3, creat pentru a monitoriza prețurile criptomonedelor și a trimite alerte automate prin email atunci când pragurile setate sunt atinse.
 
 ---
 
-## 🛠️ Stack Tehnologic Complet
+## ✨ Caracteristici
 
-* **Core:** Java 23, Spring Boot 3.4.3
-* **Data Layer:** MySQL, Spring Data JPA, Hibernate
-* **Concurrency:** Spring Task Scheduling (`@Scheduled`) & Async Executions (`@Async`)
-* **Security:** Environment Variables Encapsulation, DTO Pattern (Request/Response separation)
-* **Communication:** SMTP via Brevo API, MimeMessage HTML Templating
-* **UI:** Lightweight Vanilla JS & CSS3 (Root-served)
-
----
-
-## 🏗️ Arhitectura Datelor
-
-### Smart Alert Logic
-Sistemul folosește un flux de validare dublu în `checkPrices`:
-1.  **Batch Fetching:** Extrage prețurile o singură dată pentru toate ID-urile unice (ex: 1 apel API pentru 100 de utilizatori de Bitcoin).
-2.  **Directional Check:** * `ABOVE`: `currentPrice >= targetPrice` (Profit Strategy)
-    * `BELOW`: `currentPrice <= targetPrice` (Entry Strategy)
-
-### Entități de Bază:
-* `CryptoAlert`: Stochează pragul, direcția și starea (Active/Inactive).
-* `NotificationHistory`: Log-ul permanent de execuție pentru audit.
+* **🔍 Monitorizare Batch**: Preia prețurile de la CoinGecko API într-un singur apel pentru toate monedele urmărite activ, optimizând resursele.
+* **⏰ Verificare Automatizată**: Sistemul verifică prețurile în mod constant la fiecare 60 de secunde (fixed rate).
+* **📧 Notificări Inteligente**: Trimite email-uri asincrone (`@Async`) cu design HTML adaptiv (verde pentru creștere, roșu pentru scădere).
+* **📜 Istoric Complet**: Fiecare notificare trimisă cu succes este salvată în baza de date pentru consultări ulterioare.
+* **🛠️ Robustete**: Include un handler global pentru excepții care asigură răspunsuri clare în caz de erori de validare.
 
 ---
 
-## 🚦 Endpoint-uri API (Swagger Enabled)
+## 🛠️ Stack Tehnologic
 
-Accesează: `http://localhost:8080/swagger-ui/index.html`
-
-| Metodă | Path | Descriere |
-| :--- | :--- | :--- |
-| **POST** | `/api/alerts` | Creează alertă cu direcție (`ABOVE`/`BELOW`) |
-| **GET** | `/api/alerts` | Lista alertelor active |
-| **GET** | `/api/alerts/history` | Istoricul notificărilor trimise (Audit Trail) |
+* **Framework**: Spring Boot 3.4.3
+* **Bază de date**: MySQL (via Spring Data JPA)
+* **Documentație**: SpringDoc OpenAPI (Swagger)
+* **Utilități**: Project Lombok
+* **Email**: Spring Mail / Brevo
 
 ---
 
-## ⚙️ Variabile de Mediu (Security First)
+## 📐 Arhitectura
 
-Aplicația **nu** rulează fără următoarele chei configurate în IDE:
-
-| Variabilă | Rol |
-| :--- | :--- |
-| `DB_URL` / `DB_PASSWORD` | Conexiune MySQL Persistență |
-| `COINGECKO_API_KEY` | Acces Date Real-Time |
-| `MAIL_USERNAME` / `MAIL_PASSWORD` | Credențiale SMTP (Brevo) |
+Aplicația este organizată modular:
+1.  **Controller**: Expune endpoint-urile REST pentru gestionarea alertelor și vizualizarea istoricului.
+2.  **Service**: Conține logica de business pentru verificarea prețurilor (`CryptoPriceService`) și trimiterea mail-urilor (`EmailService`).
+3.  **Repository**: Interfețe JpaRepository pentru accesul rapid la datele din MySQL.
+4.  **Config**: Configurații pentru documentația OpenAPI și integrarea Swagger.
 
 ---
 
-## 🎨 Interfața Utilizator
-Sistemul include un Frontend integrat accesibil direct la:
-`http://localhost:8080/`
+## 🚀 Instalare și Configurare
 
----
+### 1. Prerechizite
+* Java 17 sau mai nou.
+* Maven instalat.
+* O bază de date MySQL configurată.
 
-👨‍💻 **Autor:** Alex (Fullstack Java Developer)
+### 2. Configurare `application.properties`
+Adaugă următoarele proprietăți necesare:
+
+```properties
+spring.datasource.url=jdbc:mysql://localhost:3306/crypto_tracker
+spring.datasource.username=username_ul_tau
+spring.datasource.password=parola_ta
+
+coingecko.api.key=cheia_ta_api
+brevo.sender.email=nume@domeniu.ro

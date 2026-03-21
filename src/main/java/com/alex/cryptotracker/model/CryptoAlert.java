@@ -14,4 +14,6 @@ public class CryptoAlert {
     private Double targetPrice;
     private String userEmail;
     private Boolean isActive = true;
+    @Enumerated(EnumType.STRING)
+    private AlertDirection direction;
 }

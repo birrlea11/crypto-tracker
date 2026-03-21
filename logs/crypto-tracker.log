@@ -1,21 +1,21 @@
-2026-03-18T21:28:00.887+02:00  INFO 29688 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 29688 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T21:28:00.891+02:00 DEBUG 29688 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T21:28:00.894+02:00  INFO 29688 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T21:28:02.023+02:00  INFO 29688 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T21:28:02.117+02:00  INFO 29688 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 68 ms. Found 1 JPA repository interface.
-2026-03-18T21:28:02.734+02:00  INFO 29688 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T21:28:02.752+02:00  INFO 29688 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T21:28:02.753+02:00  INFO 29688 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T21:28:02.832+02:00  INFO 29688 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T21:28:02.832+02:00  INFO 29688 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1835 ms
-2026-03-18T21:28:03.039+02:00  INFO 29688 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T21:28:03.100+02:00  INFO 29688 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T21:28:03.142+02:00  INFO 29688 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T21:28:03.531+02:00  INFO 29688 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T21:28:03.588+02:00  INFO 29688 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T21:28:04.209+02:00  INFO 29688 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@10166230
-2026-03-18T21:28:04.211+02:00  INFO 29688 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T21:28:04.309+02:00  INFO 29688 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-21T17:01:33.886+02:00  INFO 22472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 22472 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
+2026-03-21T17:01:33.894+02:00 DEBUG 22472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-21T17:01:33.895+02:00  INFO 22472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-03-21T17:01:35.364+02:00  INFO 22472 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-21T17:01:35.458+02:00  INFO 22472 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 81 ms. Found 2 JPA repository interfaces.
+2026-03-21T17:01:36.610+02:00  INFO 22472 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-21T17:01:36.644+02:00  INFO 22472 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-21T17:01:36.645+02:00  INFO 22472 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-21T17:01:36.867+02:00  INFO 22472 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-21T17:01:36.868+02:00  INFO 22472 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2844 ms
+2026-03-21T17:01:37.398+02:00  INFO 22472 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-21T17:01:37.589+02:00  INFO 22472 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2026-03-21T17:01:37.689+02:00  INFO 22472 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-21T17:01:38.505+02:00  INFO 22472 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-21T17:01:38.552+02:00  INFO 22472 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-21T17:01:39.096+02:00  INFO 22472 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1a5b7394
+2026-03-21T17:01:39.098+02:00  INFO 22472 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-21T17:01:39.219+02:00  INFO 22472 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.39
@@ -23,40 +23,42 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-18T21:28:05.275+02:00  INFO 29688 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T21:28:05.333+02:00  INFO 29688 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T21:28:05.699+02:00  WARN 29688 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T21:28:06.204+02:00  INFO 29688 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T21:28:06.223+02:00  INFO 29688 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 6.025 seconds (process running for 7.021)
-2026-03-18T21:28:11.949+02:00  INFO 29688 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T21:28:11.950+02:00  INFO 29688 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T21:28:11.951+02:00  INFO 29688 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T21:29:06.445+02:00  INFO 29688 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : ALERTA: bitcoin a scazut la 71290.0. Se notifica birlea24@gmail.com
-2026-03-18T21:29:06.485+02:00  INFO 29688 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : Se incearca conexiunea SMTP pentru mailul HTML catre birlea24@gmail.com...
-2026-03-18T21:29:11.758+02:00  INFO 29688 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : SUCCES: Mailul HTML a fost trimis catre birlea24@gmail.com pentru moneda bitcoin
-2026-03-18T21:31:26.948+02:00  INFO 29688 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T21:31:26.972+02:00  INFO 29688 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T21:31:26.978+02:00  INFO 29688 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T21:31:26.980+02:00  INFO 29688 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T21:31:26.989+02:00  INFO 29688 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:08:51.095+02:00  INFO 6276 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 6276 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:08:51.098+02:00 DEBUG 6276 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:08:51.099+02:00  INFO 6276 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:08:51.864+02:00  INFO 6276 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:08:51.923+02:00  INFO 6276 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 49 ms. Found 1 JPA repository interface.
-2026-03-18T22:08:52.486+02:00  INFO 6276 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:08:52.506+02:00  INFO 6276 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:08:52.507+02:00  INFO 6276 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:08:52.587+02:00  INFO 6276 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:08:52.588+02:00  INFO 6276 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1427 ms
-2026-03-18T22:08:52.774+02:00  INFO 6276 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:08:52.828+02:00  INFO 6276 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:08:52.864+02:00  INFO 6276 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:08:53.178+02:00  INFO 6276 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:08:53.209+02:00  INFO 6276 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:08:53.641+02:00  INFO 6276 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@1de30c31
-2026-03-18T22:08:53.643+02:00  INFO 6276 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:08:53.731+02:00  INFO 6276 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+2026-03-21T17:01:40.400+02:00  INFO 22472 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-21T17:01:40.549+02:00  INFO 22472 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-21T17:01:41.210+02:00  WARN 22472 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-21T17:01:41.880+02:00  INFO 22472 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-21T17:01:41.894+02:00  INFO 22472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 9.152 seconds (process running for 11.047)
+2026-03-21T17:01:42.554+02:00  WARN 22472 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API.
+2026-03-21T17:02:42.203+02:00  WARN 22472 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API.
+2026-03-21T17:03:03.551+02:00  INFO 22472 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-21T17:03:03.553+02:00  INFO 22472 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-21T17:03:03.556+02:00  INFO 22472 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2026-03-21T17:06:41.980+02:00  INFO 22472 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : ALERTA: bitcoin este la 70616.0. (Prag: BELOW 100000.0). Notificăm birlea24@gmail.com
+2026-03-21T17:06:42.039+02:00  INFO 22472 --- [crypto-tracker] [task-1] c.a.cryptotracker.service.EmailService   : Sarcina asincronă: Se trimite mail HTML către birlea24@gmail.com pentru bitcoin (Direcție: BELOW)
+2026-03-21T17:06:47.612+02:00  INFO 22472 --- [crypto-tracker] [task-1] c.a.cryptotracker.service.EmailService   : SUCCES: Notificare trimisă cu succes către birlea24@gmail.com
+2026-03-21T17:15:52.431+02:00  INFO 22472 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-21T17:15:52.450+02:00  INFO 22472 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-21T17:15:52.454+02:00  INFO 22472 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-21T17:15:52.457+02:00  INFO 22472 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-21T17:15:52.464+02:00  INFO 22472 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-21T17:16:00.288+02:00  INFO 5040 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 5040 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
+2026-03-21T17:16:00.291+02:00 DEBUG 5040 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
+2026-03-21T17:16:00.292+02:00  INFO 5040 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
+2026-03-21T17:16:01.360+02:00  INFO 5040 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-03-21T17:16:01.434+02:00  INFO 5040 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 64 ms. Found 2 JPA repository interfaces.
+2026-03-21T17:16:02.076+02:00  INFO 5040 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2026-03-21T17:16:02.092+02:00  INFO 5040 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-03-21T17:16:02.093+02:00  INFO 5040 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
+2026-03-21T17:16:02.188+02:00  INFO 5040 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2026-03-21T17:16:02.188+02:00  INFO 5040 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1811 ms
+2026-03-21T17:16:02.425+02:00  INFO 5040 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2026-03-21T17:16:02.494+02:00  INFO 5040 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
+2026-03-21T17:16:02.530+02:00  INFO 5040 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2026-03-21T17:16:02.880+02:00  INFO 5040 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-03-21T17:16:02.914+02:00  INFO 5040 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-03-21T17:16:03.392+02:00  INFO 5040 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@54d60fa1
+2026-03-21T17:16:03.395+02:00  INFO 5040 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-03-21T17:16:03.509+02:00  INFO 5040 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
 	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
 	Database driver: undefined/unknown
 	Database version: 8.0.39
@@ -64,596 +66,16 @@
 	Isolation level: undefined/unknown
 	Minimum pool size: undefined/unknown
 	Maximum pool size: undefined/unknown
-2026-03-18T22:08:54.671+02:00  INFO 6276 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:08:54.732+02:00  INFO 6276 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:08:55.066+02:00  WARN 6276 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:08:55.482+02:00  INFO 6276 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:08:55.495+02:00  INFO 6276 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 4.938 seconds (process running for 5.873)
-2026-03-18T22:09:35.844+02:00  INFO 6276 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:09:35.844+02:00  INFO 6276 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:09:35.846+02:00  INFO 6276 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T22:09:55.775+02:00  INFO 6276 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : ALERTA: bitcoin a scazut la 70741.0. Se notifica birlea24@gmail.com
-2026-03-18T22:09:55.844+02:00  INFO 6276 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : Se incearca conexiunea SMTP pentru mailul HTML catre birlea24@gmail.com...
-2026-03-18T22:10:01.103+02:00  INFO 6276 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : SUCCES: Mailul HTML a fost trimis catre birlea24@gmail.com pentru moneda bitcoin
-2026-03-18T22:10:59.281+02:00  WARN 6276 --- [crypto-tracker] [http-nio-8080-exec-3] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public com.alex.cryptotracker.dto.CryptoAlertResponse com.alex.cryptotracker.controller.CryptoAlertController.createAlert(com.alex.cryptotracker.dto.CryptoAlertRequest) with 3 errors: [Field error in object 'cryptoAlertRequest' on field 'coinId': rejected value []; codes [NotBlank.cryptoAlertRequest.coinId,NotBlank.coinId,NotBlank.java.lang.String,NotBlank]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [cryptoAlertRequest.coinId,coinId]; arguments []; default message [coinId]]; default message [must not be blank]] [Field error in object 'cryptoAlertRequest' on field 'userEmail': rejected value [adresa-falsa-fara-aron]; codes [Email.cryptoAlertRequest.userEmail,Email.userEmail,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [cryptoAlertRequest.userEmail,userEmail]; arguments []; default message [userEmail],[Ljakarta.validation.constraints.Pattern$Flag;@5e133295,.*]; default message [must be a well-formed email address]] [Field error in object 'cryptoAlertRequest' on field 'targetPrice': rejected value [-500.0]; codes [Positive.cryptoAlertRequest.targetPrice,Positive.targetPrice,Positive.java.lang.Double,Positive]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [cryptoAlertRequest.targetPrice,targetPrice]; arguments []; default message [targetPrice]]; default message [must be greater than 0]] ]
-2026-03-18T22:17:30.678+02:00  INFO 6276 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:17:30.702+02:00  INFO 6276 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:17:30.706+02:00  INFO 6276 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:17:30.708+02:00  INFO 6276 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:17:30.716+02:00  INFO 6276 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:17:36.035+02:00  INFO 24472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 24472 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:17:36.037+02:00 DEBUG 24472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:17:36.038+02:00  INFO 24472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:17:36.782+02:00  INFO 24472 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:17:36.842+02:00  INFO 24472 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
-2026-03-18T22:17:37.406+02:00  INFO 24472 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:17:37.421+02:00  INFO 24472 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:17:37.421+02:00  INFO 24472 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:17:37.482+02:00  INFO 24472 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:17:37.482+02:00  INFO 24472 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1375 ms
-2026-03-18T22:17:37.655+02:00  INFO 24472 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:17:37.718+02:00  INFO 24472 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:17:37.751+02:00  INFO 24472 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:17:38.064+02:00  INFO 24472 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:17:38.096+02:00  INFO 24472 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:17:38.530+02:00  INFO 24472 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@7645b7d
-2026-03-18T22:17:38.533+02:00  INFO 24472 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:17:38.632+02:00  INFO 24472 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:17:39.681+02:00  INFO 24472 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:17:39.740+02:00  INFO 24472 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:17:40.081+02:00  WARN 24472 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:17:40.509+02:00  INFO 24472 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:17:40.521+02:00  INFO 24472 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.036 seconds (process running for 5.947)
-2026-03-18T22:19:26.378+02:00  INFO 24472 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:19:26.379+02:00  INFO 24472 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:19:26.380+02:00  INFO 24472 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T22:30:32.417+02:00  INFO 24472 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:30:32.438+02:00  INFO 24472 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:30:32.442+02:00  INFO 24472 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:30:32.444+02:00  INFO 24472 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:30:32.453+02:00  INFO 24472 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:30:37.380+02:00  INFO 8004 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 8004 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:30:37.382+02:00 DEBUG 8004 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:30:37.384+02:00  INFO 8004 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:30:38.255+02:00  INFO 8004 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:30:38.315+02:00  INFO 8004 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 50 ms. Found 1 JPA repository interface.
-2026-03-18T22:30:38.927+02:00  INFO 8004 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:30:38.944+02:00  INFO 8004 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:30:38.944+02:00  INFO 8004 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:30:39.026+02:00  INFO 8004 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:30:39.026+02:00  INFO 8004 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1572 ms
-2026-03-18T22:30:39.220+02:00  INFO 8004 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:30:39.272+02:00  INFO 8004 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:30:39.306+02:00  INFO 8004 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:30:39.648+02:00  INFO 8004 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:30:39.689+02:00  INFO 8004 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:30:40.163+02:00  INFO 8004 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@ff2266c
-2026-03-18T22:30:40.166+02:00  INFO 8004 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:30:40.269+02:00  INFO 8004 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:30:41.391+02:00  INFO 8004 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:30:41.457+02:00  INFO 8004 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:30:41.885+02:00  WARN 8004 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:30:42.435+02:00  INFO 8004 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:30:42.447+02:00  INFO 8004 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.651 seconds (process running for 6.585)
-2026-03-18T22:30:53.673+02:00  INFO 8004 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:30:53.674+02:00  INFO 8004 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:30:53.675+02:00  INFO 8004 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T22:31:42.682+02:00  INFO 8004 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : ALERTA: bitcoin a scazut la 70990.0. Se notifica birlea24@gmail.com
-2026-03-18T22:31:42.735+02:00  INFO 8004 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : Se incearca conexiunea SMTP pentru mailul HTML catre birlea24@gmail.com...
-2026-03-18T22:31:57.568+02:00  INFO 8004 --- [crypto-tracker] [scheduling-1] c.a.cryptotracker.service.EmailService   : SUCCES: Mailul HTML a fost trimis catre birlea24@gmail.com pentru moneda bitcoin
-2026-03-18T22:34:21.882+02:00  INFO 8004 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:34:21.904+02:00  INFO 8004 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:34:21.909+02:00  INFO 8004 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:34:21.912+02:00  INFO 8004 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:34:21.923+02:00  INFO 8004 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:35:43.157+02:00  INFO 10408 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 10408 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:35:43.160+02:00 DEBUG 10408 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:35:43.161+02:00  INFO 10408 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:35:44.122+02:00  INFO 10408 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:35:44.178+02:00  INFO 10408 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 45 ms. Found 1 JPA repository interface.
-2026-03-18T22:35:44.747+02:00  INFO 10408 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:35:44.765+02:00  INFO 10408 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:35:44.766+02:00  INFO 10408 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:35:44.842+02:00  INFO 10408 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:35:44.843+02:00  INFO 10408 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1592 ms
-2026-03-18T22:35:45.033+02:00  INFO 10408 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:35:45.088+02:00  INFO 10408 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:35:45.133+02:00  INFO 10408 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:35:45.434+02:00  INFO 10408 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:35:45.466+02:00  INFO 10408 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:35:45.901+02:00  INFO 10408 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@343d1d25
-2026-03-18T22:35:45.904+02:00  INFO 10408 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:35:45.999+02:00  INFO 10408 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:35:46.971+02:00  INFO 10408 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:35:47.028+02:00  INFO 10408 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:35:47.521+02:00  WARN 10408 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:35:48.129+02:00  INFO 10408 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:35:48.144+02:00  INFO 10408 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.567 seconds (process running for 6.651)
-2026-03-18T22:36:55.444+02:00  INFO 10408 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:36:55.444+02:00  INFO 10408 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:36:55.447+02:00  INFO 10408 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-03-18T22:36:57.382+02:00 ERROR 10408 --- [crypto-tracker] [http-nio-8080-exec-9] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
-
-java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
-	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:706) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:196) ~[na:na]
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:636) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:656) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:662) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:667) ~[na:na]
-	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:708) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:247) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:220) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:201) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:171) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:150) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:125) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
-2026-03-18T22:38:29.780+02:00 ERROR 10408 --- [crypto-tracker] [http-nio-8080-exec-3] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
-
-java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
-	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:706) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:196) ~[na:na]
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:636) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:656) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:662) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:667) ~[na:na]
-	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:708) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:247) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:220) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:201) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:171) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:150) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:125) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
-2026-03-18T22:38:41.447+02:00 ERROR 10408 --- [crypto-tracker] [http-nio-8080-exec-5] o.a.c.c.C.[.[.[/].[dispatcherServlet]    : Servlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Handler dispatch failed: java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'] with root cause
-
-java.lang.NoSuchMethodError: 'void org.springframework.web.method.ControllerAdviceBean.<init>(java.lang.Object)'
-	at org.springdoc.core.service.GenericResponseService.lambda$getGenericMapResponse$8(GenericResponseService.java:706) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at java.base/java.util.stream.ReferencePipeline$2$1.accept(ReferencePipeline.java:196) ~[na:na]
-	at java.base/java.util.Spliterators$ArraySpliterator.forEachRemaining(Spliterators.java:1024) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.copyInto(AbstractPipeline.java:570) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.wrapAndCopyInto(AbstractPipeline.java:560) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluate(AbstractPipeline.java:636) ~[na:na]
-	at java.base/java.util.stream.AbstractPipeline.evaluateToArrayNode(AbstractPipeline.java:291) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:656) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toArray(ReferencePipeline.java:662) ~[na:na]
-	at java.base/java.util.stream.ReferencePipeline.toList(ReferencePipeline.java:667) ~[na:na]
-	at org.springdoc.core.service.GenericResponseService.getGenericMapResponse(GenericResponseService.java:708) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.core.service.GenericResponseService.build(GenericResponseService.java:247) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:499) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.calculatePath(AbstractOpenApiResource.java:676) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$calculatePath$11(OpenApiResource.java:220) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.calculatePath(OpenApiResource.java:201) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.lambda$getPaths$2(OpenApiResource.java:171) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/java.util.Optional.ifPresent(Optional.java:178) ~[na:na]
-	at org.springdoc.webmvc.api.OpenApiResource.getPaths(OpenApiResource.java:150) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.api.AbstractOpenApiResource.getOpenApi(AbstractOpenApiResource.java:353) ~[springdoc-openapi-starter-common-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiResource.openapiJson(OpenApiResource.java:125) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at org.springdoc.webmvc.api.OpenApiWebMvcResource.openapiJson(OpenApiWebMvcResource.java:114) ~[springdoc-openapi-starter-webmvc-api-2.6.0.jar:2.6.0]
-	at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103) ~[na:na]
-	at java.base/java.lang.reflect.Method.invoke(Method.java:580) ~[na:na]
-	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:257) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:190) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:986) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:891) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1088) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:978) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at org.springframework.web.servlet.FrameworkServlet.doGet(FrameworkServlet.java:903) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:564) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885) ~[spring-webmvc-6.2.3.jar:6.2.3]
-	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658) ~[tomcat-embed-core-10.1.36.jar:6.0]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:195) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51) ~[tomcat-embed-websocket-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116) ~[spring-web-6.2.3.jar:6.2.3]
-	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:164) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:140) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:483) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:397) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:905) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1743) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1190) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63) ~[tomcat-embed-core-10.1.36.jar:10.1.36]
-	at java.base/java.lang.Thread.run(Thread.java:1575) ~[na:na]
-
-2026-03-18T22:41:07.628+02:00  INFO 10408 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:41:07.649+02:00  INFO 10408 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:41:07.653+02:00  INFO 10408 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:41:07.656+02:00  INFO 10408 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:41:07.665+02:00  INFO 10408 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:41:11.490+02:00  INFO 30552 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 30552 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:41:11.492+02:00 DEBUG 30552 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:41:11.493+02:00  INFO 30552 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:41:12.430+02:00  INFO 30552 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:41:12.487+02:00  INFO 30552 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 46 ms. Found 1 JPA repository interface.
-2026-03-18T22:41:13.092+02:00  INFO 30552 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:41:13.109+02:00  INFO 30552 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:41:13.110+02:00  INFO 30552 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:41:13.196+02:00  INFO 30552 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:41:13.196+02:00  INFO 30552 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1628 ms
-2026-03-18T22:41:13.395+02:00  INFO 30552 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:41:13.451+02:00  INFO 30552 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:41:13.502+02:00  INFO 30552 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:41:13.913+02:00  INFO 30552 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:41:13.956+02:00  INFO 30552 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:41:14.488+02:00  INFO 30552 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@fbbd90c
-2026-03-18T22:41:14.491+02:00  INFO 30552 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:41:14.623+02:00  INFO 30552 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:41:15.802+02:00  INFO 30552 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:41:15.862+02:00  INFO 30552 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:41:16.339+02:00  WARN 30552 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:41:16.974+02:00  INFO 30552 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:41:16.990+02:00  INFO 30552 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 6.091 seconds (process running for 7.099)
-2026-03-18T22:41:18.927+02:00  INFO 30552 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:41:18.948+02:00  INFO 30552 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:41:18.953+02:00  INFO 30552 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:41:18.957+02:00  INFO 30552 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:41:18.972+02:00  INFO 30552 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:42:19.647+02:00  INFO 8432 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 8432 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:42:19.650+02:00 DEBUG 8432 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:42:19.652+02:00  INFO 8432 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:42:20.592+02:00  INFO 8432 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:42:20.654+02:00  INFO 8432 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 53 ms. Found 1 JPA repository interface.
-2026-03-18T22:42:21.204+02:00  INFO 8432 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:42:21.220+02:00  INFO 8432 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:42:21.221+02:00  INFO 8432 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:42:21.304+02:00  INFO 8432 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:42:21.304+02:00  INFO 8432 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1572 ms
-2026-03-18T22:42:21.489+02:00  INFO 8432 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:42:21.548+02:00  INFO 8432 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:42:21.586+02:00  INFO 8432 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:42:21.884+02:00  INFO 8432 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:42:21.916+02:00  INFO 8432 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:42:22.355+02:00  INFO 8432 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@79e2606f
-2026-03-18T22:42:22.358+02:00  INFO 8432 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:42:22.450+02:00  INFO 8432 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:42:23.449+02:00  INFO 8432 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:42:23.507+02:00  INFO 8432 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:42:23.899+02:00  WARN 8432 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:42:24.567+02:00  INFO 8432 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:42:24.581+02:00  INFO 8432 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.52 seconds (process running for 6.564)
-2026-03-18T22:43:12.095+02:00  INFO 8432 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:43:12.096+02:00  INFO 8432 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:43:12.098+02:00  INFO 8432 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-03-18T22:45:23.425+02:00  INFO 8432 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:45:23.449+02:00  INFO 8432 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:45:23.453+02:00  INFO 8432 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:45:23.456+02:00  INFO 8432 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:45:23.466+02:00  INFO 8432 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:46:52.061+02:00  INFO 21452 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 21452 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:46:52.063+02:00 DEBUG 21452 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:46:52.065+02:00  INFO 21452 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:46:52.961+02:00  INFO 21452 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:46:53.020+02:00  INFO 21452 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interface.
-2026-03-18T22:46:53.570+02:00  INFO 21452 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:46:53.585+02:00  INFO 21452 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:46:53.586+02:00  INFO 21452 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:46:53.665+02:00  INFO 21452 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:46:53.665+02:00  INFO 21452 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1526 ms
-2026-03-18T22:46:53.838+02:00  INFO 21452 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:46:53.895+02:00  INFO 21452 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:46:53.940+02:00  INFO 21452 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:46:54.233+02:00  INFO 21452 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:46:54.266+02:00  INFO 21452 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:46:54.689+02:00  INFO 21452 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@45bf93bb
-2026-03-18T22:46:54.692+02:00  INFO 21452 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:46:54.780+02:00  INFO 21452 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:46:55.732+02:00  INFO 21452 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:46:55.784+02:00  INFO 21452 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:46:56.187+02:00  WARN 21452 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:46:56.874+02:00  INFO 21452 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:46:56.889+02:00  INFO 21452 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.405 seconds (process running for 6.624)
-2026-03-18T22:47:31.768+02:00  INFO 21452 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:47:31.768+02:00  INFO 21452 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:47:31.769+02:00  INFO 21452 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T22:51:05.288+02:00  INFO 21452 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:51:05.307+02:00  INFO 21452 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:51:05.311+02:00  INFO 21452 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:51:05.313+02:00  INFO 21452 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:51:05.321+02:00  INFO 21452 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:51:13.732+02:00  INFO 29512 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 29512 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:51:13.735+02:00 DEBUG 29512 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:51:13.736+02:00  INFO 29512 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:51:14.714+02:00  INFO 29512 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:51:14.791+02:00  INFO 29512 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 1 JPA repository interface.
-2026-03-18T22:51:15.467+02:00  INFO 29512 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:51:15.483+02:00  INFO 29512 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:51:15.483+02:00  INFO 29512 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:51:15.573+02:00  INFO 29512 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:51:15.574+02:00  INFO 29512 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1764 ms
-2026-03-18T22:51:15.778+02:00  INFO 29512 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:51:15.846+02:00  INFO 29512 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:51:15.900+02:00  INFO 29512 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:51:16.276+02:00  INFO 29512 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:51:16.307+02:00  INFO 29512 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:51:16.829+02:00  INFO 29512 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@114b203
-2026-03-18T22:51:16.832+02:00  INFO 29512 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:51:16.947+02:00  INFO 29512 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:51:18.129+02:00  INFO 29512 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:51:18.182+02:00  INFO 29512 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:51:18.555+02:00  WARN 29512 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:51:19.187+02:00  INFO 29512 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:51:19.201+02:00  INFO 29512 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 6.135 seconds (process running for 7.34)
-2026-03-18T22:51:20.653+02:00  INFO 29512 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:51:20.654+02:00  INFO 29512 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:51:20.656+02:00  INFO 29512 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T22:51:58.150+02:00  INFO 29512 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T22:51:58.170+02:00  INFO 29512 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T22:51:58.174+02:00  INFO 29512 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:51:58.177+02:00  INFO 29512 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T22:51:58.190+02:00  INFO 29512 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T22:53:32.286+02:00  INFO 16944 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 16944 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T22:53:32.289+02:00 DEBUG 16944 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T22:53:32.291+02:00  INFO 16944 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T22:53:34.576+02:00  INFO 16944 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T22:53:34.786+02:00  INFO 16944 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 176 ms. Found 1 JPA repository interface.
-2026-03-18T22:53:36.420+02:00  INFO 16944 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T22:53:36.458+02:00  INFO 16944 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T22:53:36.459+02:00  INFO 16944 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T22:53:36.669+02:00  INFO 16944 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T22:53:36.670+02:00  INFO 16944 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4223 ms
-2026-03-18T22:53:37.148+02:00  INFO 16944 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T22:53:37.311+02:00  INFO 16944 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T22:53:37.413+02:00  INFO 16944 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T22:53:38.233+02:00  INFO 16944 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T22:53:38.387+02:00  INFO 16944 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T22:53:39.576+02:00  INFO 16944 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@4ac19bc6
-2026-03-18T22:53:39.582+02:00  INFO 16944 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T22:53:39.808+02:00  INFO 16944 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T22:53:42.592+02:00  INFO 16944 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T22:53:42.727+02:00  INFO 16944 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T22:53:43.804+02:00  WARN 16944 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T22:53:45.263+02:00  INFO 16944 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T22:53:45.286+02:00  INFO 16944 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 14.082 seconds (process running for 15.59)
-2026-03-18T22:54:04.013+02:00  INFO 16944 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T22:54:04.013+02:00  INFO 16944 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T22:54:04.016+02:00  INFO 16944 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
-2026-03-18T22:54:05.395+02:00  INFO 16944 --- [crypto-tracker] [http-nio-8080-exec-7] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 400 ms
-2026-03-18T22:57:45.669+02:00  WARN 16944 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T22:58:45.365+02:00  WARN 16944 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T22:59:45.533+02:00  WARN 16944 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T23:00:26.148+02:00  INFO 16944 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T23:00:26.173+02:00  INFO 16944 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T23:00:26.178+02:00  INFO 16944 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T23:00:26.182+02:00  INFO 16944 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T23:00:26.194+02:00  INFO 16944 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
-2026-03-18T23:00:32.471+02:00  INFO 26328 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Starting CryptoTrackerApplication using Java 23.0.1 with PID 26328 (D:\_proiectfacultate\crypto-tracker\target\classes started by birle in D:\_proiectfacultate\crypto-tracker)
-2026-03-18T23:00:32.474+02:00 DEBUG 26328 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Running with Spring Boot v3.4.3, Spring v6.2.3
-2026-03-18T23:00:32.475+02:00  INFO 26328 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : No active profile set, falling back to 1 default profile: "default"
-2026-03-18T23:00:33.473+02:00  INFO 26328 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
-2026-03-18T23:00:33.535+02:00  INFO 26328 --- [crypto-tracker] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 52 ms. Found 1 JPA repository interface.
-2026-03-18T23:00:34.126+02:00  INFO 26328 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
-2026-03-18T23:00:34.143+02:00  INFO 26328 --- [crypto-tracker] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
-2026-03-18T23:00:34.144+02:00  INFO 26328 --- [crypto-tracker] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.36]
-2026-03-18T23:00:34.234+02:00  INFO 26328 --- [crypto-tracker] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
-2026-03-18T23:00:34.234+02:00  INFO 26328 --- [crypto-tracker] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1684 ms
-2026-03-18T23:00:34.439+02:00  INFO 26328 --- [crypto-tracker] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
-2026-03-18T23:00:34.517+02:00  INFO 26328 --- [crypto-tracker] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.8.Final
-2026-03-18T23:00:34.557+02:00  INFO 26328 --- [crypto-tracker] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
-2026-03-18T23:00:34.962+02:00  INFO 26328 --- [crypto-tracker] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
-2026-03-18T23:00:35.006+02:00  INFO 26328 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
-2026-03-18T23:00:35.507+02:00  INFO 26328 --- [crypto-tracker] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection com.mysql.cj.jdbc.ConnectionImpl@d512c1
-2026-03-18T23:00:35.510+02:00  INFO 26328 --- [crypto-tracker] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
-2026-03-18T23:00:35.621+02:00  INFO 26328 --- [crypto-tracker] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
-	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
-	Database driver: undefined/unknown
-	Database version: 8.0.39
-	Autocommit mode: undefined/unknown
-	Isolation level: undefined/unknown
-	Minimum pool size: undefined/unknown
-	Maximum pool size: undefined/unknown
-2026-03-18T23:00:36.554+02:00  INFO 26328 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
-2026-03-18T23:00:36.607+02:00  INFO 26328 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T23:00:37.068+02:00  WARN 26328 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
-2026-03-18T23:00:37.598+02:00  INFO 26328 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
-2026-03-18T23:00:37.611+02:00  INFO 26328 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 5.754 seconds (process running for 6.754)
-2026-03-18T23:00:38.047+02:00  WARN 26328 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T23:01:37.857+02:00  WARN 26328 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T23:01:41.078+02:00  INFO 26328 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
-2026-03-18T23:01:41.078+02:00  INFO 26328 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
-2026-03-18T23:01:41.080+02:00  INFO 26328 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
-2026-03-18T23:01:42.942+02:00  INFO 26328 --- [crypto-tracker] [http-nio-8080-exec-9] o.springdoc.api.AbstractOpenApiResource  : Init duration for springdoc-openapi is: 380 ms
-2026-03-18T23:02:37.692+02:00  WARN 26328 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T23:03:37.873+02:00  WARN 26328 --- [crypto-tracker] [scheduling-1] c.a.c.service.CryptoPriceService         : Nu s-au putut prelua preturile de la API. Se sare peste acest ciclu.
-2026-03-18T23:04:06.738+02:00  INFO 26328 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
-2026-03-18T23:04:06.760+02:00  INFO 26328 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
-2026-03-18T23:04:06.764+02:00  INFO 26328 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
-2026-03-18T23:04:06.767+02:00  INFO 26328 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
-2026-03-18T23:04:06.777+02:00  INFO 26328 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-03-21T17:16:04.635+02:00  INFO 5040 --- [crypto-tracker] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-03-21T17:16:04.694+02:00  INFO 5040 --- [crypto-tracker] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-03-21T17:16:05.238+02:00  WARN 5040 --- [crypto-tracker] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-03-21T17:16:05.873+02:00  INFO 5040 --- [crypto-tracker] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2026-03-21T17:16:05.889+02:00  INFO 5040 --- [crypto-tracker] [main] c.a.c.CryptoTrackerApplication           : Started CryptoTrackerApplication in 6.247 seconds (process running for 7.321)
+2026-03-21T17:19:08.754+02:00  INFO 5040 --- [crypto-tracker] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-03-21T17:19:08.754+02:00  INFO 5040 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-03-21T17:19:08.756+02:00  INFO 5040 --- [crypto-tracker] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-03-21T17:34:18.555+02:00  INFO 5040 --- [crypto-tracker] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2026-03-21T17:34:18.578+02:00  INFO 5040 --- [crypto-tracker] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2026-03-21T17:34:18.582+02:00  INFO 5040 --- [crypto-tracker] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-03-21T17:34:18.585+02:00  INFO 5040 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-03-21T17:34:18.592+02:00  INFO 5040 --- [crypto-tracker] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
